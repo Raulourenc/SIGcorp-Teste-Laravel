@@ -52,7 +52,7 @@ class InfoController extends Controller
             'email.email' => 'O email é obrigatório',
             'min' => 'O campo  deve ter no mínimo 2 digitos',
             'max' => 'O campo  deve ter no máximo 40 digitos',
-            'integer' => 'O campo estado é obrigatório',
+            'integer' => 'O campo deve ser um nmero',
             'unique' => 'O email já está sendo usado',
         ]
         );
@@ -111,7 +111,7 @@ class InfoController extends Controller
             'email.email' => 'O email é obrigatório',
             'min' => 'O campo  deve ter no mínimo 3 digitos',
             'max' => 'O campo  deve ter no máximo 40 digitos',
-            'integer' => 'O campo estado é obrigatório',
+            'integer' => 'O campo deve ser um número',
             'unique' => 'O email já está sendo usado',
         ]
         

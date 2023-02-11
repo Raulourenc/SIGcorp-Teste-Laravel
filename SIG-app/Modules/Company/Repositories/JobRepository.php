@@ -48,19 +48,18 @@ class JobRepository implements JobRepositoryInterface {
 
     public function findJob($search)
     { 
-        if(isset($search)){
-            if($search) {
+            if(isset($search['_token'])) {
                 return $events = Job::where([
-                    ['name', 'like', '%'.$search['search'].'%']
+                    [$search['filter'], 'like', '%'.$search['search'].'%'],
                 ])
                 ->orderBy($search['filter'])
                 ->latest()
                 ->paginate($search['paginate']);
 
             } else {
-                return $events =Job::latest()->paginate($search['paginate']);
+                return $events =Job::latest()->paginate(20);
             }
-        }
+    
 
     }
 
@@ -85,7 +84,7 @@ class JobRepository implements JobRepositoryInterface {
        
         $arrayInfo = array();
         foreach($array as $a){
-            $c = Info::where('id',$a)->get();
+            $c = Info::where('user_id',$a)->get();
             array_push($arrayInfo, $c);
         }
         return $arrayInfo;

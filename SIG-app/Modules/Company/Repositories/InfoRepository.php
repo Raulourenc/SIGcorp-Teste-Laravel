@@ -37,10 +37,9 @@ class InfoRepository implements InfoRepositoryInterface {
 
     public function listInfo($search)
     {   
-        
-        if($search) {
+        if(isset($search['_token'])) {
             return $info = Info::where([
-                ['name', 'like', '%'.$search['search'].'%']
+                [$search['filter'], 'like', '%'.$search['search'].'%']
             ])
             ->orderBy($search['filter'])
             ->latest()

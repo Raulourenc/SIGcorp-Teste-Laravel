@@ -51,7 +51,7 @@ class JobController extends Controller
         $data = $request->validate([
             'name' => 'required|min:3|max:40',
             'description' => 'required|min:3|max:100',
-            'remuneration' => 'required|min:3|max:40',
+            'remuneration' => 'required|integer|min:100|max:100000',
             'type' => 'required|string|min:3|max:40',
             'user_id' => 'required|integer',
             'status' => 'required',
@@ -61,9 +61,11 @@ class JobController extends Controller
             'min' => 'O campo  deve ter no mínimo 3 digitos',
             'name.max' => 'O campo  deve ter no máximo 40 digitos',
             'description.max' => 'O campo  deve ter no máximo 100 digitos',
-            'remuneration.max' => 'O campo  deve ter no máximo 40 digitos',
+            'remuneration.min' => 'O campo  deve ter no mínimo o valor de 100',
+            'max' => 'O campo  deve ter no máximo 40 digitos',
+            'remuneration.max' => 'O campo  deve ter no máximo o valor de 100000',
             'type.max' => 'O campo  deve ter no máximo 40 digitos',
-            'integer' => 'O campo estado é obrigatório',
+            'integer' => 'O campo deve ser um número',
             'string' => 'O campo não pode conter números',
         ]
         );
@@ -111,8 +113,8 @@ class JobController extends Controller
     {  
         $request->validate([
             'name' => 'required|min:3|max:40',
-            'description' => 'required|min:3|max:40',
-            'remuneration' => 'required|min:3|max:40',
+            'description' => 'required|min:3|max:100',
+            'remuneration' => 'required|integer|min:100|max:100000',
             'type' => 'required|string|min:3|max:40',
             'user_id' => 'required|integer',
             'status' => 'required',
@@ -120,9 +122,14 @@ class JobController extends Controller
         [
             'required' => 'O campo é obrigatório',
             'min' => 'O campo  deve ter no mínimo 3 digitos',
+            'name.max' => 'O campo  deve ter no máximo 40 digitos',
+            'description.max' => 'O campo  deve ter no máximo 100 digitos',
+            'remuneration.min' => 'O campo  deve ter no mínimo o valor de 100',
             'max' => 'O campo  deve ter no máximo 40 digitos',
-            'integer' => 'O campo estado é obrigatório',
-            'string' => 'O campo não pode conter números'
+            'remuneration.max' => 'O campo  deve ter no máximo o valor de 100000',
+            'type.max' => 'O campo  deve ter no máximo 40 digitos',
+            'integer' => 'O campo deve ser um número',
+            'string' => 'O campo não pode conter números',
         ]
         );
 
