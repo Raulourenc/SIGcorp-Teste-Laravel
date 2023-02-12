@@ -23,19 +23,19 @@
 # 💻 Aplicação idealizada como um site de vagas.
 
 Tipo de Usuário e suas funções
-**- Admin:** 
-     - Cadastrar vagas
-     - Consutar  vagas
-     - Consultar usuários que se candidataram de cada vaga
-     - Editar vaga
-     - Inativar Vaga
-     - Deletar vaga
-     - Deletar todas as vagas
-     - Consultar Candidatos
+1. Admin: 
+   - Cadastrar vagas
+   - Consutar  vagas
+   - Consultar usuários que se candidataram de cada vaga
+   - Editar vaga
+   - Inativar Vaga
+   - Deletar vaga
+   - Deletar todas as vagas
+   - Consultar Candidatos
      
-**- Usuário comum:**
-      - Cadastrar Informações(Quando é feito o cadastro de informações libera "Consultar Vagas" e "Minhas Vagas")
-      - Editar Informações
-      - Consultar Informações
-      - Minhas vagas(Vagas que o usuário se cadastrou)
+2. Usuário comum:
+   - Cadastrar Informações(Quando é feito o cadastro de informações libera "Consultar Vagas" e "Minhas Vagas")
+   - Editar Informações
+   - Consultar Informações
+   - Minhas vagas(Vagas que o usuário se cadastrou)
  
