@@ -1,24 +1,25 @@
 <h1 align="left"> SIGvagas </h1>
 
+# ⚙️: Versões 
+- Laravel version - 9.51.0
+- Composer version - 2.5.2
+- PHP version - 8.2.0
 
-Comandos que devem ser rodados
+# 🛠️ Comandos que devem ser rodados
 
--composer update
--alterar o .env.example para .env
--se aparecer na tela um erro e pedir pra gerar uma key, clique que gera.
--npm install
--npm run dev
--npm run build
--configurar o .env
--php artisan migrate
--php artisan db:seed
--php artisan module:seed
--php artisan storage:link
--php artisan serve
+- composer update
+- alterar o .env.example para .env
+- se aparecer na tela um erro e pedir pra gerar uma key, clique que gera.
+- npm install
+- npm run dev
+- npm run build
+- configurar o .env
+- php artisan migrate
+- php artisan db:seed
+- php artisan module:seed
+- php artisan storage:link
+- php artisan serve
 
-Laravel version - 9.51.0
-composer version - 2.5.2
-php version - 8.2.0
 
 Aplicação idealizada como um site de vagas.
 
