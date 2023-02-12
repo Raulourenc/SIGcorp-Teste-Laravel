@@ -6,7 +6,7 @@
 - PHP version - 8.2.0
 
 # 🛠️ Comandos que devem ser rodados
-
+'''
 - composer update
 - alterar o .env.example para .env
 - se aparecer na tela um erro e pedir pra gerar uma key, clique que gera.
@@ -19,7 +19,7 @@
 - php artisan module:seed
 - php artisan storage:link
 - php artisan serve
-
+'''
 # 💻 Aplicação idealizada como um site de vagas.
 
 Tipo de Usuário e suas funções
