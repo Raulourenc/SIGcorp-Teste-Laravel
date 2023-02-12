@@ -36,7 +36,7 @@ Aplicação idealizada como um site da empresa x para exposição de suas vagas.
 
 Aplicação idealizada como um site de vagas.
 
-Tipo de Usuário :
+Tipo de Usuário 
 -Admin: 
     -Funções
       -Cadastrar vagas
