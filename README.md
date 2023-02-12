@@ -1,4 +1,4 @@
-<h1 align="center"> SIGvagas </h1>
+<h1 align="left"> SIGvagas </h1>
 
 
 Comandos que devem ser rodados
