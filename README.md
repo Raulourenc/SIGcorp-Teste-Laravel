@@ -6,8 +6,8 @@
 - PHP version - 8.2.0
 
 # 🛠️ Comandos que devem ser rodados
-'''
-- composer update
+
+- '''composer update'''
 - alterar o .env.example para .env
 - se aparecer na tela um erro e pedir pra gerar uma key, clique que gera.
 - npm install
