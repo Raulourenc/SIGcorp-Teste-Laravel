@@ -1,6 +1,9 @@
 # SIGcorp-Teste-Laravel
 
+<<<<<<< HEAD
 -Comandos que devem ser rodados
+
+Comandos que devem ser rodados
 
 -composer update
 -alterar o .env.example para .env
@@ -9,11 +12,18 @@
 -npm run dev
 -npm run build
 -configurar o .env
+<<<<<<< HEAD
+
+-php artisan serve
+
 -php artisan migrate
 -php artisan db:seed
 -php artisan module:seed
 -php artisan storage:link
+<<<<<<< HEAD
 -php artisan serve
+
+
 
 Laravel version - 9.51.0
 composer version - 2.5.2
@@ -21,7 +31,11 @@ php version - 8.2.0
 
 
 
+<<<<<<< HEAD
 Aplicação idealizada como um site da empresa x para exposição de suas vagas.
+
+Aplicação idealizada como um site de vagas.
+
 Tipo de Usuário :
 -Admin: 
     -Funções
