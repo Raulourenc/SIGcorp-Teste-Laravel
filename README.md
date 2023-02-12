@@ -19,7 +19,7 @@
 - php artisan module:seed
 - php artisan storage:link
 - php artisan serve
-'''
+
 # 💻 Aplicação idealizada como um site de vagas.
 
 Tipo de Usuário e suas funções
