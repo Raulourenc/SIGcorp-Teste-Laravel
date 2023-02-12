@@ -8,8 +8,7 @@
 # 🛠️ Comandos que devem ser rodados
 
 - composer update
-- alterar o .env.example para .env
-- se aparecer na tela um erro e pedir pra gerar uma key, clique que gera.
+- alterar o .env.example para .env (se se estiver como .env.example)
 - npm install
 - npm run dev
 - npm run build
@@ -21,7 +20,7 @@
 - php artisan serve
 
 # 💻 Aplicação idealizada como um site de vagas.
-
+- Para ter acesso é necessario estar logado 
 Tipo de Usuário e suas funções
 1. Admin: 
    - Cadastrar vagas
