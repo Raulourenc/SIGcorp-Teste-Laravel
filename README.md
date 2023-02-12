@@ -1,8 +1,6 @@
 # SIGcorp-Teste-Laravel
 
 
--Comandos que devem ser rodados
-
 Comandos que devem ser rodados
 
 -composer update
@@ -12,27 +10,15 @@ Comandos que devem ser rodados
 -npm run dev
 -npm run build
 -configurar o .env
-
-
--php artisan serve
-
 -php artisan migrate
 -php artisan db:seed
 -php artisan module:seed
 -php artisan storage:link
-
 -php artisan serve
-
-
 
 Laravel version - 9.51.0
 composer version - 2.5.2
 php version - 8.2.0
-
-
-
-
-Aplicação idealizada como um site da empresa x para exposição de suas vagas.
 
 Aplicação idealizada como um site de vagas.
 
