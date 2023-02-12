@@ -34,8 +34,8 @@ Tipo de Usuário e suas funções
    - Consultar Candidatos
      
 2. Usuário comum:
-   - Cadastrar Informações(Quando é feito o cadastro de informações libera "Consultar Vagas" e "Minhas Vagas")
+   - Cadastrar Informações (quando é feito o cadastro de informações libera "Consultar Vagas" e "Minhas Vagas")
    - Editar Informações
    - Consultar Informações
-   - Minhas vagas(Vagas que o usuário se cadastrou)
+   - Minhas vagas (vagas que o usuário se cadastrou)
  
