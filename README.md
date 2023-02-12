@@ -1,6 +1,6 @@
 # SIGcorp-Teste-Laravel
 
-<<<<<<< HEAD
+
 -Comandos que devem ser rodados
 
 Comandos que devem ser rodados
@@ -12,7 +12,7 @@ Comandos que devem ser rodados
 -npm run dev
 -npm run build
 -configurar o .env
-<<<<<<< HEAD
+
 
 -php artisan serve
 
@@ -20,7 +20,7 @@ Comandos que devem ser rodados
 -php artisan db:seed
 -php artisan module:seed
 -php artisan storage:link
-<<<<<<< HEAD
+
 -php artisan serve
 
 
@@ -31,7 +31,7 @@ php version - 8.2.0
 
 
 
-<<<<<<< HEAD
+
 Aplicação idealizada como um site da empresa x para exposição de suas vagas.
 
 Aplicação idealizada como um site de vagas.
